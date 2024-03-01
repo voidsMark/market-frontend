@@ -1,7 +1,7 @@
 <template>
   <div class="market-item">
     <img :src="props.img" alt="preview" class="item-preview" v-if="props.img">
-    <img src="../assets/blobs/nike.webp" alt="preview" class="item-preview" v-else>
+    <img src="../assets/img/no-picture.jpg" alt="preview" class="item-preview" v-else>
 
     <div class="data">
       <div class="price">

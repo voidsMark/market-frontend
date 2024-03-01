@@ -1,6 +1,6 @@
 <script lang="ts">
 import { HTMLAttributes, defineComponent } from 'vue'
-const modules = import.meta.glob('../assets/icons/**/*.svg', { eager: true, as: 'svg-component' })
+const modules = import.meta.glob('../assets/icons/**/*.svg', { eager: true, query: '?svg-component' })
 
 const reg = /\/([a-zA-Z0-9\-_]+?)\./
 
